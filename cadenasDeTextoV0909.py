@@ -41,7 +41,8 @@ for indice in range(len(texto)-1,-1,-1): #recorrer al reves
 
 print(texto.upper()) #para el texto en mayusculas
 print(texto.lower()) #en minusculas
-print(texto.swapcase()) #combiando
+print(texto.swapcase()) #combinado letras mayúsculas y minúsculas
+
 
 texto = "Hola mundo cruel"
 print(texto.find("o")) #nos dice cuantas letras hay de esas
