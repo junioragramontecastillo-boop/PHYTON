@@ -1,3 +1,15 @@
+# Las reglas básicas
+
+# a		- El caracter a y ningún otro
+# .c 		- El punto valida cualquier caracter (abc, a3c...)
+# [abc] 	- Uno de los caracteres (a, b o c)
+# [a-z]	- Un caracter en el rango indicado (a, p, x...) siguen la tabla ascci (la ñ no está incluida)
+# [^aeiou]	- Cualquiera excepto estos (1, n, P...). El signo ^ tiene que ir el primero después del corchete
+# \d		- Un dígito cualquiera
+# \w		- Una letra, un dígito o el signo de subrayado _
+# \W        - cualquiera que no esté incluido en el anterior: símbolos que no sean el _, espacios, etc.
+# \s		- Un espacio, un tabulador o un salto de línea
+
 #MATCH
 #VALIDA UNA CADENA SI ENCUENTRA UN PATRON QUE BUSCA AL PRINCIPIO DE LA CADENA
 
@@ -11,7 +23,7 @@
 #IMPORTAMOS LA LIBRERIA
 import re
 
-from IntroduccionV1809 import suma
+
 
 #ponemos una r al patron que vamos a comparar en expresiones regulares
 
