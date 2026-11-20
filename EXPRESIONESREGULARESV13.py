@@ -10,16 +10,16 @@
 # \W        - cualquiera que no esté incluido en el anterior: símbolos que no sean el _, espacios, etc.
 # \s		- Un espacio, un tabulador o un salto de línea
 
- CARDINALIDAD:
-  *		- 0 o mas veces
-  +		- 1 o mas veces
-  ? 		- 0 o 1 vez
-  {n}		- exactamente n veces
-  {n,m}	- entre n y m veces (ambas incluidas
-  {n,}		- n o mas veces
-  ^Hola	- Valida la cadena Hola si está al inicio
-  mundo$	- Valida la cadena mundo si está al final
-  a|b		- Alternativa (o a o b)
+ #CARDINALIDAD:
+  #*		- 0 o mas veces
+  #+		- 1 o mas veces
+  #? 		- 0 o 1 vez
+  #{n}		- exactamente n veces
+  #{n,m}	- entre n y m veces (ambas incluidas
+  #{n,}		- n o mas veces
+  #^Hola	- Valida la cadena Hola si está al inicio
+  #mundo$	- Valida la cadena mundo si está al final
+  #a|b		- Alternativa (o a o b)
 
 #MATCH
 #VALIDA UNA CADENA SI ENCUENTRA UN PATRON QUE BUSCA AL PRINCIPIO DE LA CADENA
